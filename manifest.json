@@ -1,0 +1,9 @@
+{
+  "name": "Select Similar Layers",
+  "id": "1234567890",
+  "api": "1.0.0",
+  "main": "dist/code.js",
+  "editorType": [
+    "figma"
+  ]
+}

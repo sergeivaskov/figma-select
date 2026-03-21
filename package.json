@@ -1,0 +1,13 @@
+{
+  "name": "figma-select-similar",
+  "version": "1.0.0",
+  "description": "Figma plugin to select similar layers",
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc -w"
+  },
+  "devDependencies": {
+    "@figma/plugin-typings": "^1.116.0",
+    "typescript": "^5.0.0"
+  }
+}
