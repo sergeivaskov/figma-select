@@ -1,9 +1,33 @@
 {
-  "name": "Select Similar Layers",
+  "name": "MUSTHAVE Select",
   "id": "1234567890",
   "api": "1.0.0",
   "main": "dist/code.js",
   "editorType": [
     "figma"
+  ],
+  "menu": [
+    {
+      "name": "Select Similar",
+      "command": "select-similar"
+    },
+    {
+      "separator": true
+    },
+    {
+      "name": "Select First Child",
+      "command": "select-first-child"
+    },
+    {
+      "name": "Select Last Child",
+      "command": "select-last-child"
+    },
+    {
+      "separator": true
+    },
+    {
+      "name": "Hide all instances",
+      "command": "hide-all-instances"
+    }
   ]
 }
