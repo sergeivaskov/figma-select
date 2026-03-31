@@ -53,7 +53,7 @@ function findSimilarNodes(target: SceneNode): SceneNode[] {
         next_k = -1;
       } else {
         // ТОЧКА РАСХОЖДЕНИЯ
-        if (depth >= n - 1) {
+        if (depth >= n) {
           return; 
         }
 
