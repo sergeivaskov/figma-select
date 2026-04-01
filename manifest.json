@@ -28,6 +28,13 @@
     {
       "name": "Hide all instances",
       "command": "hide-all-instances"
+    },
+    {
+      "separator": true
+    },
+    {
+      "name": "Select Random",
+      "command": "select-random"
     }
   ]
 }
