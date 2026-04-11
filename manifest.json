@@ -30,6 +30,10 @@
       "command": "hide-all-instances"
     },
     {
+      "name": "Hide all instances in document",
+      "command": "hide-all-instances-document"
+    },
+    {
       "separator": true
     },
     {

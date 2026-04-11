@@ -3,11 +3,12 @@
   "version": "1.0.0",
   "description": "Figma plugin to select similar layers",
   "scripts": {
-    "build": "tsc",
-    "watch": "tsc -w"
+    "build": "esbuild src/code.ts --bundle --target=es2017 --outfile=dist/code.js",
+    "watch": "esbuild src/code.ts --bundle --target=es2017 --outfile=dist/code.js --watch"
   },
   "devDependencies": {
     "@figma/plugin-typings": "^1.116.0",
+    "esbuild": "^0.28.0",
     "typescript": "^5.0.0"
   }
 }
